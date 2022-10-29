@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <!-- website favicon -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+
+    <!-- download font from google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- linking html to the css file -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Frontend Mentor | News homepage</title>
+  </head>
+  <body>
+    <header>
+      <!-- desktop navigation bar -->
+      <nav>
+        <img
+          class="website-logo"
+          src="./assets/images/logo.svg"
+          alt="Website logo"
+        />
+        <img
+          class="mobile-menu-icon"
+          src="./assets/images/icon-menu.svg"
+          alt="Mobile menu button"
+        />
+        <ul class="desktop-nav">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+      </nav>
+
+      <!-- mobile navigation -->
+      <div class="mobile-nav hidden">
+        <img
+          class="close-mobile-menu-icon"
+          src="./assets/images/icon-menu-close.svg"
+          alt="Close mobile menu button"
+        />
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">New</a></li>
+          <li><a href="#">Popular</a></li>
+          <li><a href="#">Trending</a></li>
+          <li><a href="#">Categories</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="desktop-header">
+        <section class="section-hero">
+          <img
+            class="mobile-header-image"
+            src="./assets/images/image-web-3-mobile.jpg"
+            alt="Abstract image representing web 3.0"
+          />
+
+          <img
+            class="desktop-header-image"
+            src="./assets/images/image-web-3-desktop.jpg"
+            alt="Abstract image representing web 3.0"
+          />
+          <div class="hero-content">
+            <h1>The Bright Future of Web 3.0?</h1>
+            <div class="text-and-button">
+              <p>
+                We dive into the next evolution of the web that claims to put
+                the power of the platforms back into the hands of the people.
+                But is it really fulfilling its promise?
+              </p>
+
+              <button class="read-more-btn">Read more</button>
+            </div>
+          </div>
+        </section>
+
+        <section class="section-new">
+          <h2>New</h2>
+
+          <h3><a href="#">Hydrogen VS Electric Cars</a></h3>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          <hr />
+
+          <h3><a href="#">The Downsides of AI Artistry</a></h3>
+          <p>
+            What are the possible adverse effects of on-demand AI image
+            generation?
+          </p>
+          <hr />
+
+          <h3><a href="#">Is VC Funding Drying Up?</a></h3>
+          <p>Private funding by VC firms is down 50% YOY.</p>
+        </section>
+      </div>
+
+      <section class="section-others" id="1">
+        <div class="news-block">
+          <img
+            src="./assets/images/image-retro-pcs.jpg"
+            class="news-img"
+            alt="Image containing an old computer with a green screen"
+          />
+          <div class="text">
+            <h2 class="news-number">01</h2>
+            <h4><a href="#">Reviving Retro PCs</a></h4>
+            <p>What happens when old PCs are given modern upgrades?</p>
+          </div>
+        </div>
+        <div class="news-block" id="2">
+          <img
+            src="./assets/images/image-top-laptops.jpg"
+            class="news-img"
+            alt="Image of a laptop keyboard"
+          />
+          <div class="text">
+            <h2 class="news-number">02</h2>
+            <h4><a href="#">Top 10 Laptops of 2022</a></h4>
+            <p>Our best picks for various needs and budgets.</p>
+          </div>
+        </div>
+        <div class="news-block" id="3">
+          <img
+            src="./assets/images/image-gaming-growth.jpg"
+            class="news-img"
+            alt="Image of a PlayStation 4 controller"
+          />
+          <div class="text">
+            <h2 class="news-number">03</h2>
+            <h4><a href="#">The Growth of Gaming</a></h4>
+            <p>How the pandemic has sparked fresh opportunities.</p>
+          </div>
+        </div>
+      </section>
+      <div class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">cavalcantevitor</a>.
+      </div>
+    </main>
+    <script src="/scripts.js"></script>
+  </body>
+</html>
