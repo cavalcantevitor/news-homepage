@@ -26,12 +26,11 @@ Users should be able to:
 ### Screenshot
 
 ![News Homepage Challenge Screenshot - Desktop](screenshot-desktop.png)
-![News Homepage Challenge Screenshot - Mobile](screenshot-mobile.png)
 
 ### Links
 
-- Solution URL: [URL](URL)
-- Live Site URL: [URL](URL)
+- Solution URL: [https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl/hub/news-homepage-solution-1MwEJEY0ee](https://www.frontendmentor.io/challenges/news-homepage-H6SWTa1MFl/hub/news-homepage-solution-1MwEJEY0ee)
+- Live Site URL: [https://cavalcantevitor.github.io/news-homepage/](https://cavalcantevitor.github.io/news-homepage/)
 
 ## My process
 
